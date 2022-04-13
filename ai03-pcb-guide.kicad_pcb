@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 204)
     (zones 0)
     (modules 24)
@@ -16,7 +16,7 @@
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
-    (35 F.Paste user)
+    (35 F.Paste user hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
@@ -1214,6 +1214,9 @@
     )
   )
 
+  (gr_text "Hello World!" (at 51.59375 109.5375) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 121.92 73.66) (end 48.26 73.66) (layer Edge.Cuts) (width 0.05) (tstamp 62562F91))
   (gr_line (start 48.26 111.76) (end 121.92 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 62562F90))
   (gr_line (start 45.72 109.22) (end 45.72 76.2) (layer Edge.Cuts) (width 0.05) (tstamp 62562F8D))
